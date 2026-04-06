@@ -1,35 +1,42 @@
-# Daywise Python Practice
+# Python Practice Codes
 
-**Repository Purpose:**
-- Collection of small, day-by-day Python practice exercises. Each `DayX/` folder (for example `Day1/`, `Day2/`) contains standalone scripts and notes used for learning and demonstration.
+This repository contains a collection of Python practice codes organized by topics and days. It is designed to help improve coding skills through hands-on exercises and mini-projects.
 
-**Structure:**
-- `DayX/` — folder for a single day's exercises (e.g., `Day1/`, `Day2/`).
-- Example files: `Day2/1st_solution_age.py`, `Day1/FirstPrint.py`.
-- Notes and TODOs live alongside exercises (for example `Day1/ToDO.md`, `Day2/questions.md`).
+## Structure
 
-**How to run**
-- The scripts are plain Python files. From the repository root (shell is `sh`) run:
+The repository is organized as follows:
 
-  ```sh
-  python3 Day2/1st_solution_age.py
-  python3 Day1/FirstPrint.py
-  ```
+- **Day1/**: Basic Python concepts and introductory exercises.
+- **Day2/**: Problem-solving exercises on various topics.
+- **Day3/**: Advanced topics including decorators, functions, loops, and OOP.
+- **Day4/**: Miscellaneous basic codes.
+- **Day5/**: Mini projects and utility scripts.
 
-**Conventions for adding new days / files**
-- Keep examples small and self-contained. Each file should run with system Python and have a short usage example at the top when helpful.
-- Prefer adding new variants instead of editing original student solutions. Example suffixes: `_v2.py`, `_refactor.py` (e.g., `1st_solution_age_v2.py`).
-- Preserve original filenames and their casing — do not rename or normalize existing files unless requested.
+## Topics Covered
 
-**Editing / PR guidance**
-- Small, focused changes only. When improving a solution, add a new file in the same `DayX/` directory and reference the original in your PR description.
-- If you add third-party packages, add a `requirements.txt` at the repository root and include install/run instructions in the PR.
+- Python Basics
+- Data Types
+- Loops and Functions
+- Object-Oriented Programming
+- Decorators
+- Mini Projects
 
-**Dependencies & CI**
-- There is currently no virtual environment, dependency file, or CI configured. Do not assume packaging or tests exist.
+## How to Use
 
-**Publishing a single Day to GitHub**
-- For posting a day's work (for example Day 2), push the `Day2/` folder and include a short `README` or summary in the PR describing what the day contains.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Blaze99git/practice_codes.git
+   ```
+2. Navigate to the desired folder and explore the Python scripts.
+3. Run the scripts using Python 3.x:
+   ```bash
+   python script_name.py
+   ```
 
-**When in doubt**
-- Ask before making bulk refactors, deleting files, or changing folder structure.
+## Contributions
+
+Feel free to contribute by adding more practice problems or improving existing solutions. Fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This repository is for personal practice and educational purposes.
